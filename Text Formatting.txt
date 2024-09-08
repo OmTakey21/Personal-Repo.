@@ -1,0 +1,135 @@
+TEXT FORMATTING TAGS
+====================
+1) <B> TAG:
+==========
+bold
+==> To represent the text with bold, we can use <b> tag.
+==> paired tag
+Syntax:
+	<b> Content </b>
+==> Inline element
+
+2) <strong> tag:
+================
+==> can use to define the text with bold schematically (to apply the boldness to the text of specific word/specific line/specific sentence).
+Syntax:
+	<strong> content </strong>
+==> inline element.
+
+3) <I> TAG:
+===========
+==> USE TO DEFINE THE TEXT IN ITALIC FORMAT
+Syntax:
+	<i> content </i>
+==> Inline Element
+
+4) <em> Tag:
+===========
+Use to define the emphasized text (Italic text)
+Italic Text Schemantically
+==> Inline Element
+Syntax:
+	<em> content </em>
+
+5) <ins> Tag:
+=============
+Inserted Text
+==> Paired tag
+Syntax:
+	<ins> content </ins>
+==> Inline Element
+
+6) <u> Tag:
+===========
+Underline Tag
+Syntax:
+	<u> content </u>
+==> Inline Element
+
+7) <mark> tag:
+==============
+==> The text with yellow background is called as "marked text".
+Syntax:
+	<mark> content </mark>
+==> Inline Element.
+
+8) <del> Tag:
+=============
+==> To display the deleted text/strike-off text, <del> can be used.
+Syntax:
+	<del> Content </del>
+==> Inline Element
+
+9) <sub> Tag:
+=============
+==> can use to define the subscripted text.
+Syntax:
+	<sub> Content </sub>
+==> Inline Element
+
+10) <sup> tag:
+==============
+==> for text with superscript
+Syntax:
+	<sup> Content </sup>
+==> Inline Element
+
+11) <small> tag:
+================
+<p> tag ==> 16px.
+==> use to display the content with smaller size.
+Syntax:
+	<small> Content </small>
+
+12) <big> tag:
+==============
+==> content with larger size
+Syntax:
+	<big> Content </big>
+
+Quotations:
+===========
+1) <blockquote>
+===============
+the text with block quoted format (between whitespaces the text will be)
+==> block element
+Syntax:
+	<blockquote> Content </blockquote>
+
+2) <q> tag:
+===========
+Quotations
+Syntax:
+	<q> Content </q>
+
+3) <abbr> tag:
+==============
+==> while placing the mouse cursor, to get the abbreviation of any text, we can use <abbr> tag
+Syntax:
+	<abbr title = "abbreviation"> Text </abbr>
+
+4) <address> tag:
+=================
+==> the text within <address> tag is in Italic format by default.
+Syntax:
+<address> content </address>
+
+5) <bdo> Tag:
+=============
+Bidirectional Order Tag
+==> use to specify the content to display from Left to Right or Right to Left.
+Syntax:
+	<bdo dir = "ltr or rtl"> Content </bdo>
+
+
+
+
+
+
+
+
+
+
+
+
+

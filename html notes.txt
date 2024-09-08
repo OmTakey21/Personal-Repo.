@@ -1,0 +1,71 @@
+HTML
+
+Format :
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title>Content</title>
+		<meta Charset="UTF-8">
+	</head>
+	<body>
+		Content
+	</body>
+</html>
+
+
+
+Types of html tags:
+1) Paired: open+close tag
+2) Unpaired:only open tag/self-closing tag
+
+&
+1)Inline: action performed on the same line
+2)Block:action performed on the new line
+
+Element=completion of a tag
+
+Definition tags:
+1)Headings:
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+
+2)Paragraph:
+<p></p>
+
+3)divisional:
+<div></div>
+
+text-formatting tags:
+1)Bold:
+to bold the content naturally i.e used for large amount of text
+<bold>content</bold>
+
+2)strong:
+to make content bold schematically
+<strong>content</strong>
+
+3)italic:
+write down the content in italic font & used for large amount of text
+<i>content</i>
+
+4)emphasize:
+convert the content to italic 
+<em>content</em>
+
+5)insert:
+to seem like an inserted content to fill in the blanks
+<ins>content</ins>
+
+6)underline:
+to underline the content
+<u>content</u>
+
+7)mark:
+highlight content
+<mark>content</mark>
+
+8)

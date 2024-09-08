@@ -1,0 +1,18 @@
+Git & GitHub
+
+-Git installation
+-Git Login
+
+cd path --> command to set the path of the repository
+git init --> initialised git repository
+git status--> to check whether a file has been added into folder or to check the changes made into repo.
+git add file_name--> to add file to the staging area 
+git commit -m"message"--> to commit or to publish the changes made by the user to repo. user or to the world.
+
+
+
+
+Scenario: Let's have an example of marriage , there is an couple on the stage who are getting married , all the guests will click the photo with couple so they had to go to the stage , 
+to let them on the stage guest should be called similarly, in git files should be clicked to be maintained in the history at that time git add ~~~filename.extension~~~ being used.
+git commit is used to click the photo and save it in the folder. Git status is used to view which guests clicked the photo or which not.
+ 

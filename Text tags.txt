@@ -1,0 +1,99 @@
+HTML TAGS ARE OF TWO TYPES:
+	1) PAIRED
+	2) UNPAIRED
+
+HTML ELEMENTS CAN BE CLASSIFIED INTO TWO TYPES:
+	1) INLINE ELEMENTS
+		THAT EVERY DEFINITION OF AN HTML ELEMENT CAN SPECIFY WITHIN THE SAME LINE. THOSE ELEMENTS ARE CALLED AS "INLINE ELEMENTS".
+	EX: IMAGES, ANCHOR TAG ETC.
+	2) BLOCK ELEMENTS
+		THAT EVERY DEFINITION OF AN HTML ELEMENT CAN SPECIFY WITH NEW LINE, THOSE ELEMENTS ARE CALLED AS "BLOCK ELEMNTS"
+
+HEADING TAGS:
+=============
+TO MAKE REPRESENT/DEFINE THE DIFFERENT LEVELS OF HEADINGS IN ANY DOCUMENT, WE HAVE SIX-LEVELS OF HEADINGS IN HTML:
+	<h1> to <h6>
+
+Syntax:
+	<h1> First level </h1>
+	<h2> Second Level </h2>
+	<h3> Third Level </h3>
+	<h4> Fourth level </h4>
+	<h5> fifth level </h5>
+	<h6> sixth level </h6>
+
+==> block elements
+
+<h1> shgdkjaklcqwb <h2> luwklvrb </h2> </h1>
+
+<h2> obolulu <br> ;bilkulku <br> </h1>
+
+==========================================
+
+PARAGRAPH TAG
+=============
+==> <p> tag
+==> Block element
+==> paired tag
+Syntax:
+	<p> Content </p>
+
+Line Break Tag:
+===============
+<br> tag
+==> When we need to get the line break between the content, we can use <br> tag.
+==> Unpaired tag or self-closing tag
+Syntax:
+	<br> or <br/>
+
+==========================================
+
+HORIZONTAL RULE TAG
+===================
+<hr> tag:
+========
+==> Unpaired tag
+==> Self-closing tag
+==> to define the horizontal line between the content, <hr> can be used.
+Syntax:
+	<hr> or <hr/>
+
+======================================
+
+DIV TAG
+=======
+==> Division Tag
+to divide the total complex application into multiple divisions, <div> tag
+==> in every <div> tag, we can write any tag
+==> block element
+==> paired tag
+====================================
+
+Attribute:
+==========
+an entity/element we can use to specify the extra information about any HTML element.
+Syntax:
+	<tag attribute-name = "value1;value2;value3"> Content </tag>
+==> Attribute we can always write within the open tag only.
+
+Id attribute:
+============
+==> To uniquely identify the HTML element we need "id" attribute.
+Syntax:
+	id = "value"
+
+class attribute:
+===============
+==> To commonly identify elements, we can use "class attribute".
+Syntax:
+	class = "value"
+
+
+
+
+
+
+
+
+
+

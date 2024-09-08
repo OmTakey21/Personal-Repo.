@@ -1,0 +1,391 @@
+INTRODUCTION
+============
+
+UI DEVELOPMENT
+
+WHAT IS THE UI?
+==============
+
+APPLICATION
+==========
+A COLLECTION OF PROGRAMS
+
+PHONE ==> ANDROID/IOS ==> MOBILE BASED OS
+	WHATSAPP, INSTAGRAM, SNAPCHAT ETC.
+
+SOFTWARE
+========
+COLLECTION OF PROGRAMS
+
+HOW THE APPLICATION WORK?
+TYPES OF APPLICATIONS
+======================
+	THREE TYPES:
+		1) WEB APPLICATIONS
+			CAN BE ACCESSES BY MORE THAN ONE USER AT A TIME
+			WE NEED: INTERNET, BROWSER
+			EX: YOUTUBE, GMAIL, AMAZON ETC.
+		2) DESKTOP APPLICATIONS
+			CAN BE USED BY ONLY ONE PERSON
+			CAN RUN ON: WINDOWS, LINUX, MAC-OS
+			EX: NOTEPAD, MS-PAINT, CALCULATOR
+		3) DISTRIBUTED APPLICATIONS
+			CAN USE BY MORE THAN ONE USER.
+			
+			PHONEPE: CHECK BALANCE
+					UPI =======> BANK APPLICATION
+SYNTAX
+======
+	set of guidelines
+		which can describe the way to write an instruction.
+INSTRUCTION
+ERROR
+=====
+	the program will be get exited/stopped while running because of the error.
+	the program with wrong syntax ==> error
+
+TYPES OF ERRORS
+================
+	1) compile time error
+	2) run time error
+
+TECHNOLOGIES
+
+System.out.println(100);
+
+int a = 123;
+int b = 123.234f;
+
+import java.util.Scanner;
+
+main()
+{
+	Scanner obj = new Scanner(System.in);
+	int a = obj.nextInt();	// 123.234f
+}
+
+==============================
+
+
+OTHER TERMINOLOGIES	
+	CLIENT
+	SERVER
+	BROWSER
+
+web technologies
+Introduction to HTML
+	features
+	History
+	HTML web architecture
+
+============================================
+
+Client:
+=======
+
+IBPS ==> Project of Banking sector ==> TCS
+
+an end user device
+
+a software which we can use to request for anything to the server.
+
+====================
+SERVER
+======
+
+gmail:
+	mail id
+	pwd
+		login
+home page ==> response
+invalid credentials
+
+server is a software which it can accept the request from the client and processing that request finally provide the response.
+
+client =========> server 
+	http request
+	<========
+	http response
+
+http: ==> hyper text transfer protocol
+
+===========================
+
+BROWSER
+=======
+is the client software
+	which we can to request the server.
+
+we can use to access any kind of the web application
+
+Types of browsers:
+	Chrome, Firefox, Edge, Internet Explorer, Safari, Opera, Mozilo etc.
+
+==================================
+
+To develop the web application, the technologies are:
+	1) HTML
+	=======
+		Hyper Text Markup Language
+			using tags the development is achieved ==> Markup Languages.
+		==> The text which can use to navigate from one place to another place called as "Hyper Text".
+		Tag based 
+		Syntax:
+			<name>
+		<html>
+		Tags are of two types:
+			1) Paired Tags
+				<open> and <close>
+			Syntax: HTML Element
+				<tag> content </tag>
+			the HTML element is the combination of open tag, close tag and the content.
+		the name of the tag is: the text in between angular braces
+		ex: <h1> </h1>
+		<xyz> content </xyz> ==> xyz element
+
+			2) Unpaired Tags 
+			================
+				Self closing tags
+				the tags with only open tags (not required the closing tags)
+			ex: <img>, <br>, <hr>, <input> etc.
+==> developed by Time Berners lee, 1991
+HTML Versions:
+	HTML 1.0 ==> 1991
+	HTML 2.0 ==> 1994
+	HTML 3.0 ==> 1997
+	HTML 4.0 ==> 1997
+	HTML 5.0 ==> 2014
+	HTML 5.1 ==> 2016
+	HTML 5.2 ==> 2017
+	HTML 5.3 ==> 2018
+
+features of HTML:
+================
+1) Tag based language
+2) Case Insensitive language
+	<h1> or <H1>
+<h1> </H1>
+3) Define basic HTML page
+
+Limitation:
+==========
+	we cannot define the styles to webpage.
+
+	2) CSS
+	======
+		Cascading Style Sheet
+		==> Property based language
+			use to define different styles to HTML page
+			like: color, bgcolor, margin, padding, borders, flex etc.
+		==> for every property there is a value.
+		ex: font-family : verdana, color : rgb(122,200,123), color name
+		current version: css3
+
+Note: with proper combination of HTML and CSS, we can develop good looking and meaningful website.
+
+Limitation:
+===========
+	we cannot achieve functionality
+
+	3) JavaScript
+	=============
+		JS
+		Statement based
+			ex: int a = 10;
+			var a = 10;
+			let b = 20;
+			const c = 25;
+		Server based programming language
+		client based 
+		to define the functionality for human interactions with application
+		derived from ES (ECMAScript), developed by w3c
+		World wide Web Consortium
+
+======================================================================================
+
+DOCUMENTATION
+IMPORTING
+PACKAGE
+INTERFACE
+CLASS
+	METHOD
+
+HTML PAGE STRUCTURE
+===================
+
+DEFINITION TAGS:
+	<!DOCTYPE>
+	<HTML>
+	<HEAD>
+	<BODY>
+	<TITLE>
+	<META>
+
+<!DOCTYPE>
+=========
+MARKUP LANGUAGES:
+	HTML
+	XML
+	WML
+	SGML ETC.
+
+==> DOCUMENTATION TYPE
+WHICH WE CAN USE TO SPECIFY THE BROWSER ABOUT:
+	THE TYPE OF THE MARKUP LANGUAGE
+Syntax:
+	<!doctype type of markup language>
+==> Unpaired Tag or Self-closing tag.
+
+ex: <!DOCTYPE html>
+
+==============================
+<html> tag:
+===========
+can use to specify the start point and close/end point of HTML Page/WebPage
+==> Paired tag
+Syntax:
+	<html> </html>
+
+==============================
+<head> tag:
+===========
+==> not to be used to make use the content which is visible.
+==> <head> tag, we can use to define the external information about the web document like: title, meta, keywords etc.
+Syntax:
+	<head> </head>
+==> <head> tag is the child tag to <html> tag.
+	we need to write <head> in <html> only.
+ex:
+	<outer>
+		<inner1>
+		</inner1>
+		<inner2>
+		</inner2>
+	</outer>
+<html>
+	<head> </head>
+</html>
+main()
+{
+	int a,b,c;	// a,b and c ==> integer
+
+	if(a > b && a > c)
+	{
+		big = a;
+	}
+	else if(b > c)
+	{
+		big = b;
+	}
+	else
+	{
+		big = c;
+	}
+}
+
+============================
+<body> tag
+===========
+==> we can use to display the content for visibility
+==> pair tag
+Syntax:
+	<body> </body>
+==> <body> also the child tag to the <html> tag
+	because the <body> can always be nest in <html>
+=================================
+<TITLE>
+=======
+==> pair tag
+	we can use to define the title to the web page.
+Syntax:
+	<title> Title of webpage </title>
+==> <title> tag is a child tag to <head> tag
+<head>
+	<title> </title>
+</head>
+
+================================
+
+<META>
+=======
+1) Encoding rules
+10 ==> 1010
+HI 
+
+<meta charset = "UTF-8"/>
+
+2) keywords
+
+==> self closing tag
+==> is the child to <head>
+
+Structure of webpage:
+====================
+
+<!DOCTYPE html>
+<html>
+	<head>
+		defining the external information about webpage
+	</head>
+	<body>
+		visible
+	</body>
+</html>
+
+Three things for UI Development:
+	1) Install
+		Code Editor/IDE: Notepad, Notepad++, VS Code, Atom, Sublime Text etc.
+		Browser: Chrome, Edge, Safari etc.
+	2) Create
+		1) Create the project folder
+		2) Explore the project folder to VS code
+		3) Create an HTML file with either .html or .htm extension
+		Syntax:
+			file-name.html or file.htm
+		3) Write/add the HTML code
+		
+	4) Run
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Home </title>
+        <meta charset = "UTF-8">
+    </head>
+    <body>
+        <h1> Welcome To India Tourism </h1>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
