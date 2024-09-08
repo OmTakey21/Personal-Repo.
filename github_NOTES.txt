@@ -16,3 +16,19 @@ Scenario: Let's have an example of marriage , there is an couple on the stage wh
 to let them on the stage guest should be called similarly, in git files should be clicked to be maintained in the history at that time git add ~~~filename.extension~~~ being used.
 git commit is used to click the photo and save it in the folder. Git status is used to view which guests clicked the photo or which not.
  
+
+git restore --staged filename.extension --> to remove the staged file from committing
+git log --> to view an history of the committed being made 
+rm -rf filename.ext --> to delete file from folder
+git reset hashaddress --> used to undo the commit which is being committed in the history ,
+(explanation: if we want a file which is being deleted and being committed, if we want to undo that commit we had to have an address of its before commit and give it to git 
+reset command )
+
+Note: we cannot undo the middle file , we can undo the files above the address provided.
+
+git stash -->  it is being used when we want to keep the file on backstage and whenever we want we will call them to staging .
+This command can be used after staging command i.e, git add .... 
+git stash clear --> if we want to clear the files which we set backstage and dont want to call it back
+
+Other Commands: 
+touch filename --> to create a file in the folder
